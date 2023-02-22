@@ -50,6 +50,9 @@
     #home p {
       width: 90%;
     }
+    .cores ul{
+      gap: .5rem;
+    }
     #atributos,
     #cursos,
     #instrutores {
