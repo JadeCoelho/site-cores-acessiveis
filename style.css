@@ -196,6 +196,8 @@ nav .logo {
   color: var(--branco);
   display: flex;
   gap: 1rem;
+  font-size: .9rem;
+  flex-wrap: wrap;
 }
 
 .cores ul li{
