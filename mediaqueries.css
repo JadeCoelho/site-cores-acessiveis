@@ -1,0 +1,62 @@
+@media (max-width: 769px) {
+    nav {
+      padding: 15px 20px;
+    }
+    nav .logo {
+      font-size: 20px;
+    }
+    .logo .logo-icone {
+      font-size: 23px;
+    }
+    .btn-menu {
+      display: initial;
+    }
+    .btn-fechar {
+      display: initial;
+      font-size: 1.6rem;
+      color: var(--branco);
+      padding: 30px 0 20px 20px;
+    }
+    .menu {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      position: absolute;
+      top: 0;
+      right: -200px;
+      width: 200px;
+      height: 100vh;
+      background-color: var(--transparencia);
+      backdrop-filter: blur(4.5px);
+      border: 1px solid #ffffff2e;
+      transition: 0.3s ease;
+    }
+    .menu.ativo {
+      right: 0;
+    }
+    .menu li {
+      padding: 20px 0 20px 40px;
+      margin-left: 0;
+    }
+    .menu li a {
+      color: var(--branco);
+    }
+    #home {
+      padding-top: 0;
+    }
+    #home .btn a {
+      padding: 10px 5px;
+    }
+    #home p {
+      width: 90%;
+    }
+    #atributos,
+    #cursos,
+    #instrutores {
+      padding: 8vw 2vw 4vw 2vw;
+    }
+    #cursos .cursos-cx {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  
